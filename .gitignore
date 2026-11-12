@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Never commit real captures — only the synthetic sample should be tracked
+sample_captures/*.pcap
+!sample_captures/sample_traffic.pcap
+sample_captures/*.pcapng
+
+# OS
+.DS_Store
+Thumbs.db
